@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color-bg-light: #fcfdff;
+    --color-bg: #f3f6fb;
+    --color-1-lighter: #d7e8f7;
+    --color-1-light: #75aee0;
+    --color-1: #004e94;
+    --color-2: #153d77;
+    --color-3: #001b58;
+    --color-4: #fb9803;
+    --led-on: #45c450;
+    --led-off: #d14040;
+    --ok: #45c450;
+    --warn: #fb9803;
+    --fail: #d14040;
+    --led-none: #a3a3a3;
+    --color-text-light: #f9f9f9;
+    --color-text-dark: #1c1c1c;
+    --font-default: 'Roboto', sans-serif;
+    --font-monospace: 'IBM Plex Mono', monospace;
+  
+    font-size: 60%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    background-color: #004e94;
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body,
+  input,
+  button,
+  textarea {
+    font: 500 1.8rem var(--font-default);
+    color: var(--color-text-dark);
+  }
+  
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
+  

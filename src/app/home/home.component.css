@@ -1,0 +1,23 @@
+#tableauViz{
+    margin: 5rem auto;
+    display: block;
+    width: fit-content;
+    border-radius: 8px;
+    overflow: scroll;
+    box-shadow:  21px 21px 50px #00294d,
+                -21px -21px 50px #0073db;
+}
+
+.assign{
+    display: block;
+    width: 100%;
+    padding: 2.5rem 0 0 0;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color-1-lighter);
+}
+
+.assign p {
+    padding-top: 0.3rem;
+}

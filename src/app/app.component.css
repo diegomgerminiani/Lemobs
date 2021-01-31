@@ -1,0 +1,8 @@
+.title{
+    text-align: center;
+    padding: 2.5rem 0; 
+    color: var(--color-1-lighter);
+    background: linear-gradient(145deg, #004685, #00539e);
+    box-shadow:  21px 21px 50px #00294d,
+                -21px -21px 50px #0073db;
+}
